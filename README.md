@@ -48,6 +48,8 @@
 ## 💝 Thanks to
 
 - [Daeraxa](https://github.com/Daeraxa)
+- [casperstorm](https://github.com/casperstorm)
+- [tarkah](https://github.com/tarkah)
 
 &nbsp;
 
