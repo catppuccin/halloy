@@ -37,15 +37,13 @@
 ## Usage
 
 1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+2. Copy the desired `<theme>.yaml` file into your themes directory:  
+  - Linux: `$HOME/.config/halloy/themes`
+  - macOS: `$HOME/Library/Application Support/halloy/themes`
+  - Windows: `{FOLDERID_RoamingAppData}\halloy\themes`
+4. Update the `theme:` field of your `config.yaml` to the name of the theme without the `.yaml` file extension:
+  - `theme: "catpuccin-frappe"`
+5. Restart Halloy
 
 ## 💝 Thanks to
 
