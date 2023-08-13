@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/halloy/stargazers"><img src="https://img.shields.io/github/stars/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/halloy/issues"><img src="https://img.shields.io/github/issues/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/halloy/contributors"><img src="https://img.shields.io/github/contributors/daeraxa/catppuccin-halloy?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -38,11 +38,11 @@
 
 1. Clone this repository locally
 2. Copy the desired `<theme>.yaml` file into your themes directory:  
-  - Linux: `$HOME/.config/halloy/themes`
-  - macOS: `$HOME/Library/Application Support/halloy/themes`
-  - Windows: `{FOLDERID_RoamingAppData}\halloy\themes`
+    - Linux: `$HOME/.config/halloy/themes`
+    - macOS: `$HOME/Library/Application Support/halloy/themes`
+    - Windows: `{FOLDERID_RoamingAppData}\halloy\themes`
 4. Update the `theme:` field of your `config.yaml` to the name of the theme without the `.yaml` file extension:
-  - `theme: "catpuccin-frappe"`
+    - `theme: "catppuccin-frappe"`
 5. Restart Halloy
 
 ## 💝 Thanks to
