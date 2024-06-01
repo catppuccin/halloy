@@ -41,7 +41,7 @@
     - Linux: `$HOME/.config/halloy/themes`
     - macOS: `$HOME/Library/Application Support/halloy/themes`
     - Windows: `{FOLDERID_RoamingAppData}\halloy\themes`
-4. Update the `theme:` field of your `config.toml` to the name of the theme without the `.toml` file extension:
+4. Update the `theme = "..."` field of your `config.toml` to "catppuccin-<flavor>".
     - `theme: "catppuccin-frappe"`
 5. Restart Halloy
 
