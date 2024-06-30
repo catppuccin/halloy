@@ -1,0 +1,11 @@
+name = "catppuccin-latte"
+
+[palette]
+background = "#eff1f5"
+text = "#4c4f69"
+action = "#dc8a78"
+accent = "#5c5f77"
+alert = "#df8e1d"
+error = "#d20f39"
+info = "#1e66f5"
+success = "#40a02b"
