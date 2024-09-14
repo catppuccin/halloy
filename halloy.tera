@@ -1,0 +1,18 @@
+---
+whiskers:
+  version: "2.4.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+---
+name = "catppuccin-{{ flavor.identifier }}"
+
+[palette]
+background = "#{{ base.hex }}"
+text = "#{{ text.hex }}"
+action = "#{{ rosewater.hex }}"
+accent = "#{{ subtext1.hex }}"
+alert = "#{{ yellow.hex }}"
+error = "#{{ red.hex }}"
+info = "#{{ blue.hex }}"
+success = "#{{ green.hex }}"

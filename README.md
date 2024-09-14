@@ -36,14 +36,9 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Copy the desired `<theme>.yaml` file into your themes directory:  
-    - Linux: `$HOME/.config/halloy/themes`
-    - macOS: `$HOME/Library/Application Support/halloy/themes`
-    - Windows: `{FOLDERID_RoamingAppData}\halloy\themes`
-4. Update the `theme:` field of your `config.yaml` to the name of the theme without the `.yaml` file extension:
-    - `theme: "catppuccin-frappe"`
-5. Restart Halloy
+1. Download your flavor of choice from [`themes/`](./themes/) to the `themes/` directory inside [Halloy's configuration directory](https://halloy.squidowl.org/configuration/index.html).
+2. Update the `theme` field of your `config.toml` to `catppuccin-<flavor>`, where `<flavor>` is your chosen flavor. For example, `theme = "catppuccin-frappe"`.
+3. Restart Halloy to see the theme applied.
 
 ## 💝 Thanks to
 
