@@ -1,18 +1,49 @@
 ---
 whiskers:
-  version: "2.4.0"
+  version: "^2.4.0"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
 ---
-name = "catppuccin-{{ flavor.identifier }}"
+[general]
+background = "#{{ crust.hex }}"
+border = "#{{ overlay0.hex }}"
+horizontal_rule = "#{{ surface0.hex }}"
+unread_indicator = "#{{ mauve.hex }}"
 
-[palette]
-background = "#{{ base.hex }}"
-text = "#{{ text.hex }}"
-action = "#{{ rosewater.hex }}"
-accent = "#{{ subtext1.hex }}"
-alert = "#{{ yellow.hex }}"
-error = "#{{ red.hex }}"
-info = "#{{ blue.hex }}"
+[text]
+primary = "#{{ text.hex }}"
+secondary = "#{{ subtext0.hex }}"
+tertiary = "#{{ mauve.hex }}"
 success = "#{{ green.hex }}"
+error = "#{{ red.hex }}"
+
+[buttons.primary]
+background = "#{{ crust.hex }}"
+background_hover = "#{{ base.hex}}"
+background_selected = "#{{ surface0.hex }}"
+background_selected_hover = "#{{ mantle.hex }}"
+
+[buttons.secondary]
+background = "#{{ mantle.hex }}"
+background_hover = "#{{ surface1.hex }}"
+background_selected = "#{{ surface0.hex }}"
+background_selected_hover = "#{{ surface1.hex }}"
+
+[buffer]
+action = "#{{ peach.hex }}"
+background = "#{{ mantle.hex }}"
+background_text_input = "#{{ base.hex }}"
+background_title_bar = "#{{ base.hex }}"
+border = "#{{ crust.hex }}"
+border_selected = "#{{ lavender.hex }}"
+code = "#{{ lavender.hex }}"
+highlight = "#{{ surface1.hex }}"
+nickname = "#{{ mauve.hex }}"
+selection = "#{{ surface0.hex }}"
+timestamp = "#{{ subtext1.hex }}"
+topic = "#{{ overlay1.hex }}"
+url = "#{{ blue.hex }}"
+
+[buffer.server_messages]
+default = "#{{ yellow.hex }}"

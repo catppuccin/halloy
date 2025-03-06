@@ -1,11 +1,42 @@
-name = "catppuccin-latte"
+[general]
+background = "#dce0e8"
+border = "#9ca0b0"
+horizontal_rule = "#ccd0da"
+unread_indicator = "#8839ef"
 
-[palette]
-background = "#eff1f5"
-text = "#4c4f69"
-action = "#dc8a78"
-accent = "#5c5f77"
-alert = "#df8e1d"
-error = "#d20f39"
-info = "#1e66f5"
+[text]
+primary = "#4c4f69"
+secondary = "#6c6f85"
+tertiary = "#8839ef"
 success = "#40a02b"
+error = "#d20f39"
+
+[buttons.primary]
+background = "#dce0e8"
+background_hover = "#eff1f5"
+background_selected = "#ccd0da"
+background_selected_hover = "#e6e9ef"
+
+[buttons.secondary]
+background = "#e6e9ef"
+background_hover = "#bcc0cc"
+background_selected = "#ccd0da"
+background_selected_hover = "#bcc0cc"
+
+[buffer]
+action = "#fe640b"
+background = "#e6e9ef"
+background_text_input = "#eff1f5"
+background_title_bar = "#eff1f5"
+border = "#dce0e8"
+border_selected = "#7287fd"
+code = "#7287fd"
+highlight = "#bcc0cc"
+nickname = "#8839ef"
+selection = "#ccd0da"
+timestamp = "#5c5f77"
+topic = "#8c8fa1"
+url = "#1e66f5"
+
+[buffer.server_messages]
+default = "#df8e1d"
