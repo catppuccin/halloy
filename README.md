@@ -45,6 +45,7 @@
 - [Daeraxa](https://github.com/Daeraxa)
 - [casperstorm](https://github.com/casperstorm)
 - [tarkah](https://github.com/tarkah)
+- [belinhacbr](https://github.com/belinhacbr)
 
 &nbsp;
 
