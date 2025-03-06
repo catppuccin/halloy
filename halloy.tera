@@ -20,8 +20,8 @@ error = "#{{ red.hex }}"
 
 [buttons.primary]
 background = "#{{ crust.hex }}"
-background_hover = "#{{ base.hex}}"
-background_selected = "#{{ surface0.hex }}"
+background_hover = "#{{ mantle.hex}}"
+background_selected = "#{{ base.hex }}"
 background_selected_hover = "#{{ mantle.hex }}"
 
 [buttons.secondary]

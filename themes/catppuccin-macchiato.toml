@@ -13,8 +13,8 @@ error = "#ed8796"
 
 [buttons.primary]
 background = "#181926"
-background_hover = "#24273a"
-background_selected = "#363a4f"
+background_hover = "#1e2030"
+background_selected = "#24273a"
 background_selected_hover = "#1e2030"
 
 [buttons.secondary]
