@@ -32,9 +32,9 @@ background_selected_hover = "#{{ surface1.hex }}"
 
 [buffer]
 action = "#{{ peach.hex }}"
-background = "#{{ mantle.hex }}"
-background_text_input = "#{{ base.hex }}"
-background_title_bar = "#{{ base.hex }}"
+background = "#{{ base.hex }}"
+background_text_input = "#{{ mantle.hex }}"
+background_title_bar = "#{{ mantle.hex }}"
 border = "#{{ crust.hex }}"
 border_selected = "#{{ lavender.hex }}"
 code = "#{{ lavender.hex }}"
