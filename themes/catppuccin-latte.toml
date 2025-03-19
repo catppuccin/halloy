@@ -25,9 +25,9 @@ background_selected_hover = "#bcc0cc"
 
 [buffer]
 action = "#fe640b"
-background = "#e6e9ef"
-background_text_input = "#eff1f5"
-background_title_bar = "#eff1f5"
+background = "#eff1f5"
+background_text_input = "#e6e9ef"
+background_title_bar = "#e6e9ef"
 border = "#dce0e8"
 border_selected = "#7287fd"
 code = "#7287fd"
