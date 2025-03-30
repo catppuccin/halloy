@@ -1,11 +1,42 @@
-name = "catppuccin-frappe"
+[general]
+background = "#232634"
+border = "#737994"
+horizontal_rule = "#414559"
+unread_indicator = "#ca9ee6"
 
-[palette]
-background = "#303446"
-text = "#c6d0f5"
-action = "#f2d5cf"
-accent = "#b5bfe2"
-alert = "#e5c890"
-error = "#e78284"
-info = "#8caaee"
+[text]
+primary = "#c6d0f5"
+secondary = "#a5adce"
+tertiary = "#ca9ee6"
 success = "#a6d189"
+error = "#e78284"
+
+[buttons.primary]
+background = "#232634"
+background_hover = "#292c3c"
+background_selected = "#303446"
+background_selected_hover = "#292c3c"
+
+[buttons.secondary]
+background = "#292c3c"
+background_hover = "#51576d"
+background_selected = "#414559"
+background_selected_hover = "#51576d"
+
+[buffer]
+action = "#ef9f76"
+background = "#303446"
+background_text_input = "#292c3c"
+background_title_bar = "#292c3c"
+border = "#232634"
+border_selected = "#babbf1"
+code = "#babbf1"
+highlight = "#51576d"
+nickname = "#99d1db"
+selection = "#414559"
+timestamp = "#b5bfe2"
+topic = "#838ba7"
+url = "#8caaee"
+
+[buffer.server_messages]
+default = "#e5c890"
